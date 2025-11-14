@@ -1,6 +1,7 @@
+#lib/testing/department_orm_test.py
 from __init__ import CONN, CURSOR
 from department import Department
-import pytest
+import pytest # type: ignore
 
 
 class TestDepartment:
